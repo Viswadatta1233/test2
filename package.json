@@ -1,0 +1,18 @@
+{
+    "name": "nodejs-backend-with-db",
+    "version": "1.0.0",
+    "description": "A Node.js backend with MongoDB integration for deployment testing",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "test": "echo \"No tests specified\" && exit 0"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "express": "^4.18.2",
+        "mongoose": "^7.7.0"
+    },
+    "engines": {
+        "node": ">=14"
+    }
+}
